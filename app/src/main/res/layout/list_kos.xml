@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:elevation="10dp">
+
+    <ImageView
+        android:id="@+id/koshumbnail"
+        android:src="@drawable/thebestboarding"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/kosName"
+        android:layout_width="300dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
+        android:text="Maharaja"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/kosFacility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="AC, WiFi, Bathroom"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/kosPrice"
+        android:text="1450000,-"
+        android:textSize="16sp"
+        android:textColor="#707070"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

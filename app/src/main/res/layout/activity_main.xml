@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bluejackos" />
+
+    <TextView
+        android:id="@+id/welcometxt"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Welcome"
+        android:textSize="25dp"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/name_user"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/password_user"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Now!"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="center"/>
+</LinearLayout>

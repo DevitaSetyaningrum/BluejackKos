@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:elevation="10dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:background="#FFF">
+
+    <ImageView
+        android:id="@+id/koshumbnail"
+        android:layout_width="164dp"
+        android:layout_height="111dp"
+        android:src="@drawable/thebestboarding" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="3.5dp">
+
+        <TextView
+            android:id="@+id/bookingId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="BKXXX"
+            android:textColor="#686868"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/kosName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Maharaja"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="Booking Date :"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tanggalBooking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" DD-MM-YYYY"
+                android:textColor="#000"
+                android:layout_toRightOf="@id/tvDate"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/kosFacilities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="AC, WiFi, Bathroom"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hargaKosnya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="1450000,-"
+            android:textColor="#707070"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

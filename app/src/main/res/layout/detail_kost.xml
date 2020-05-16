@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:background="#FFF">
+
+    <ImageView
+        android:id="@+id/kosThumbnailDetail"
+        android:src="@drawable/thebestboarding"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/kosNameDetail"
+        android:layout_width="300dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
+        android:text="Maharaja"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facilities : "
+            android:layout_marginLeft="9dp"
+            android:textColor="#000"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/kosFacilityDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="AC, WiFi, Bathroom"
+            android:textColor="#000"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/fac"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kos Price : "
+            android:layout_marginLeft="9dp"
+            android:textColor="#000"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/kosPriceDetail"
+            android:text="1450000,-"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/price"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="9dp"
+            android:text="Address :"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/kosDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="The Best Boarding"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/desc"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude : "
+            android:layout_marginLeft="9dp"
+            android:textColor="#000"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/kosLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="-6.2000809"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/latitude"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude : "
+            android:layout_marginLeft="9dp"
+            android:textColor="#000"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/kosLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="106.7833355"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/longitude"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/viewLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:text="View Location" />
+
+    <Button
+        android:id="@+id/bookingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Booked" />
+</LinearLayout>
